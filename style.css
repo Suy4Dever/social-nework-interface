@@ -35,3 +35,19 @@ nav {
     margin-bottom: 4px;
     overflow: hidden;
 }
+
+.avatar-container {
+    padding: 12px 24px;
+}
+
+.avatar-container img {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
