@@ -31,3 +31,14 @@ document.getElementsByClassName("info-2")[0].addEventListener("click", () => {
     counter2 = 0;
   }
 });
+
+let counter3 = 0;
+document.getElementsByClassName("info-3")[0].addEventListener("click", () => {
+  if (counter3 === 0) {
+    document.getElementsByClassName("detail-3")[0].style.display = "grid";
+    counter3 = 1;
+  } else {
+    document.getElementsByClassName("detail-3")[0].style.display = "none";
+    counter3 = 0;
+  }
+});
