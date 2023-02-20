@@ -98,6 +98,14 @@ nav {
     color: black;
 }
 
+.dropdown-container:hover .num-noti {
+    color: white;
+}
+
 .dropdown-items-container a:hover {
     background-color: #ccc;
+}
+
+.avatar-container:hover {
+    background-color: white;
 }
