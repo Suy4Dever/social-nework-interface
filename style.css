@@ -12,6 +12,11 @@ nav {
     color: white;
 }
 
+.menu-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
 .menu-container a {
     display: inline-block;
     padding: 12px 24px;
@@ -55,4 +60,13 @@ nav {
 .logo-box:hover {
     background-color: #ccc;
     color: black;
+}
+
+.nav-item:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.noti:hover {
+    background-color: #ccc;
 }
