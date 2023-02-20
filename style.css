@@ -7,3 +7,31 @@
     font-family: "Open Sans";
 }
 
+nav {
+    background-color: #4d636f;
+    color: white;
+}
+
+.menu-container a {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+}
+
+.logo {
+    margin-right: 16px;
+}
+
+.logo-box {
+    background-color: #3a4b53;
+}
+
+.num-noti {
+    display: inline-block;
+    padding: 0px 8px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    font-size: 12px;
+    margin-bottom: 4px;
+    overflow: hidden;
+}
