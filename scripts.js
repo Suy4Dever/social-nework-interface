@@ -1,15 +1,18 @@
 let counter1 = 0;
 document.getElementsByClassName("info-1")[0].addEventListener("click", () => {
+  // let css = ".info-title:hover{background-color: #ccc; color: white}";
+  // let style = document.createElement("style");
   if (counter1 === 0) {
     document.getElementsByClassName("detail-1")[0].style.display = "block";
     document.getElementsByClassName("title-1")[0].style.backgroundColor =
       "#57707d";
-    document.getElementsByClassName("title-1")[0];
+    // style.styleSheet.cssText = css;
     counter1 = 1;
   } else {
     document.getElementsByClassName("detail-1")[0].style.display = "none";
     document.getElementsByClassName("title-1")[0].style.backgroundColor =
       "#7d97a5";
+    // style.styleSheet.cssText = css;
     counter1 = 0;
   }
 });

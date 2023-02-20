@@ -161,7 +161,7 @@ nav {
 
 .info-title:hover {
     color: black;
-    background-color: #ccc;
+    background-color: #ccc !important;
 }
 
 .detail-info {
