@@ -109,3 +109,38 @@ nav {
 .avatar-container:hover {
     background-color: white;
 }
+
+.my-profile-container {
+    margin-top: 29px;
+    padding: 0px 16px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    overflow: hidden;
+}
+
+.my-profile-container h4 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.my-profile-img {
+    display: flex;
+    justify-content: center;
+}
+
+.my-profile-img img {
+    border-radius: 50%;
+    margin: 15px 0px;
+    width: 106px;
+    height: 106px;
+}
+
+.my-profile-info span {
+    margin-right: 16px;
+    color: #607d8b;
+}
+
+.my-profile-info p {
+    margin: 15px 0px;
+}
