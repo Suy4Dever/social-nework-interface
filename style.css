@@ -70,3 +70,34 @@ nav {
 .noti:hover {
     background-color: #ccc;
 }
+
+.dropdown-items-container a {
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 8px 16px;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-items-container {
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    position: absolute;
+    width: 300px;
+    display: none;
+}
+
+.dropdown-container:hover .dropdown-items-container {
+    display: block;
+}
+
+.dropdown-container:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.dropdown-items-container a:hover {
+    background-color: #ccc;
+}
