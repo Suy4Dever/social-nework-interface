@@ -42,3 +42,10 @@ document.getElementsByClassName("info-3")[0].addEventListener("click", () => {
     counter3 = 0;
   }
 });
+
+document
+  .getElementsByClassName("close-button")[0]
+  .addEventListener("click", () => {
+    document.getElementsByClassName("alert-box-container")[0].style.display =
+      "none";
+  });
