@@ -521,7 +521,9 @@ nav {
 
 article {
     display: grid;
+    align-items: start;
     grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
     column-gap: 16px;
 }
 
@@ -531,10 +533,12 @@ article {
 
 .more-info-container {
     margin-bottom: 20px;
+    align-self: start;
 }
 
 .interest-container {
     margin-bottom: 20px;
+    align-self: start;
 }
 
 .status-writing-container {
