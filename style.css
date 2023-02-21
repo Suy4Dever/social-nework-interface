@@ -443,3 +443,45 @@ nav {
 .info-button:hover {
     background-color: #ccc;
 }
+
+.friend-request-container {
+    padding: 0px 16px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    overflow: hidden;
+}
+
+.request-title {
+    margin: 16px 0px;
+    text-align: center;
+}
+
+.request-info {
+    text-align: center; 
+}
+
+.request-info img {
+    width: 50%;
+    height: auto;
+    /* text-align: center; */
+}
+
+.add-rej-container {
+    margin: 16px 0px;
+    opacity: 0.6;
+}
+
+.accept-button, .reject-button {
+    display: inline-block;
+    padding: 8px 16px;
+    /* background-color: #4CAF50; */
+    color: white;
+    border: none;
+}
+
+.accept-button {
+    background-color: #4CAF50;
+}
+
+.reject-button {
+    background-color: #f44336;
+}
