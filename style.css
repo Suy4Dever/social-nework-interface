@@ -518,3 +518,21 @@ nav {
     margin: 15px 0px;
     font-size: 36px;
 }
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 16px;
+}
+
+.my-profile-container {
+    margin-bottom: 20px;
+}
+
+.more-info-container {
+    margin-bottom: 20px;
+}
+
+.interest-container {
+    margin-bottom: 20px;
+}
