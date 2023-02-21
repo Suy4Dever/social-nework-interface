@@ -520,11 +520,21 @@ nav {
 }
 
 article {
-    display: grid;
+    display: flex;
     align-items: start;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr;
-    column-gap: 16px;
+    gap: 16px;
+}
+
+.left-column {
+    width: 25%;
+}
+
+.center-column {
+    width: 50%;
+}
+
+.right-column {
+    width: 25%;
 }
 
 .my-profile-container {
