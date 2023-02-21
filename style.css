@@ -574,4 +574,29 @@ article {
     margin-bottom: 20px;
 }
 
-.
+.footer {
+    padding: 16px 16px;
+    background-color: #435761;
+}
+
+.footer h5 {
+    margin: 10px 0px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.author-of-project {
+    padding: 0px 16px;
+    color: white;
+    background-color: #303e45;
+    overflow: hidden;
+}
+
+.author-of-project p {
+    margin: 15px 0px;
+}
+
+.author-of-project p em {
+    text-decoration: underline;
+}
