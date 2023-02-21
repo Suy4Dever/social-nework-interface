@@ -466,8 +466,10 @@ nav {
 }
 
 .add-rej-container {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
     margin: 16px 0px;
     opacity: 0.6;
+    display: flex;
 }
 
 .accept-button, .reject-button {
@@ -478,10 +480,19 @@ nav {
     border: none;
 }
 
+.accept-button:hover, .reject-button:hover {
+    color: black;
+    background-color: #ccc;
+}
+
 .accept-button {
     background-color: #4CAF50;
+    width: 0px;
+    flex: 1 1 0px;
 }
 
 .reject-button {
     background-color: #f44336;
+    width: 0px;
+    flex: 1 1 0px;
 }
