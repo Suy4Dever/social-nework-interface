@@ -375,3 +375,15 @@ nav {
 .status-content p {
     margin: 15px 0px;
 }
+
+.image-container {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.image-container img {
+    display: block;
+    flex: 1 1 0px;
+    width: 0px;
+}
