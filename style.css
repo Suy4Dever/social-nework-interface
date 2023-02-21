@@ -536,3 +536,25 @@ article {
 .interest-container {
     margin-bottom: 20px;
 }
+
+.status-writing-container {
+    margin-top: 29px;
+    margin-bottom: 16px;
+}
+
+.posts-container {
+    margin-bottom: 16px;
+}
+
+.upcoming-event-container {
+    margin-top: 29px;
+    margin-bottom: 20px;
+}
+
+.friend-request-container {
+    margin-bottom: 20px;
+}
+
+.ad-container {
+    margin-bottom: 20px;
+}
