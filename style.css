@@ -334,3 +334,40 @@ nav {
 .post-button span {
     margin-right: 8px;
 }
+
+.posts-container {
+    padding: 0px 16px;
+}
+
+.users-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.users-info {
+    display: flex;
+    align-items: center;
+}
+
+.users-container img {
+    border-radius: 50%;
+    width: 60px;
+    height: auto;
+    margin-right: 16px;
+}
+
+.posts-container hr {
+    margin: 20px 0px;
+    border-top: 1px solid #eee;
+}
+
+.users-info h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.users-container p {
+    opacity: 0.6;
+}
